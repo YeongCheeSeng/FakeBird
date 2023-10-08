@@ -223,18 +223,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 497445823285985578, guid: c7006f864b7fc5d4184094c128c0ea87, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 497445823285985578, guid: c7006f864b7fc5d4184094c128c0ea87, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 497445823285985578, guid: c7006f864b7fc5d4184094c128c0ea87, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3309230270021049272, guid: c7006f864b7fc5d4184094c128c0ea87, type: 3}
       propertyPath: m_Name
       value: FlappyBird
