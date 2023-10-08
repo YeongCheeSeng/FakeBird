@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 5652964045948294766}
   - component: {fileID: 1590365803994192612}
   - component: {fileID: 2216196431776909753}
+  - component: {fileID: 7062558515065833721}
   m_Layer: 0
   m_Name: FlappyBird
   m_TagString: Untagged
@@ -191,6 +192,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7062558515065833721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3309230270021049272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 340d00dc4e324f7439b0fb73b9dac79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JumpForce: 200
+  MoveForce: 300
 --- !u!1 &3788916776518786828
 GameObject:
   m_ObjectHideFlags: 0
