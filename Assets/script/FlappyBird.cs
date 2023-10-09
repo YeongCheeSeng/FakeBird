@@ -25,7 +25,6 @@ public class FlappyBird : MonoBehaviour
             // Vevtor2.up = (0,1)
             _rigidBody2D.velocity = Vector2.zero;
             _rigidBody2D.AddForce(Vector2.up * JumpForce);
-            Debug.Log("We should jump");
         }
 
         if (Input.GetKeyDown("left")) 
@@ -33,7 +32,6 @@ public class FlappyBird : MonoBehaviour
             _rigidBody2D.velocity = Vector2.zero;
             _rigidBody2D.AddForce(Vector2.up * JumpForce);
             _rigidBody2D.AddForce(Vector2.left * MoveForce);
-            Debug.Log("We should left");
         }
 
         if (Input.GetKeyDown("right"))
@@ -41,7 +39,12 @@ public class FlappyBird : MonoBehaviour
             _rigidBody2D.velocity = Vector2.zero;
             _rigidBody2D.AddForce(Vector2.up * JumpForce);
             _rigidBody2D.AddForce(Vector2.right * MoveForce);
-            Debug.Log("We should right");
+        }
+
+        if (Input.GetKeyDown("down"))
+        {
+            _rigidBody2D.velocity = Vector2.zero;
+            _rigidBody2D.AddForce(Vector2.down * JumpForce);
         }
 
     }
