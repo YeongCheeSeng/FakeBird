@@ -26,5 +26,6 @@ public class ScoreBox : MonoBehaviour
                 return;
 
             _score.AddScore();
+            Destroy(this.gameObject);
         }
 }

@@ -10,12 +10,16 @@ public class FlappyBird : MonoBehaviour
     public float MoveForce = 400f;
 
     private Rigidbody2D _rigidBody2D;
-    
+
+
+
 
     private void Start()
     {
         _rigidBody2D = GetComponent<Rigidbody2D>();
+
     }
+
 
     // Update is called once per frame
     void Update()
@@ -48,4 +52,6 @@ public class FlappyBird : MonoBehaviour
         }
 
     }
+
+
 }
