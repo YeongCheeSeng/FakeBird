@@ -9,4 +9,10 @@ public class SceanLoader : MonoBehaviour
     {
         SceneManager.LoadScene("FakeBird");
     }
+   
+    public void Quit()   
+    {
+        Application.Quit();
+    }
+   
 }

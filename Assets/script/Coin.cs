@@ -20,7 +20,7 @@ public class Coin : MonoBehaviour
 
         _audioSource.Play();
         Destroy(gameObject);
-       
+        
     }
 
 }

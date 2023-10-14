@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FakeBird.unity
     guid: 83b1b387b00cad44086a465b663ec96a
+  - enabled: 1
+    path: Assets/Scenes/FakeBird (End menu).unity
+    guid: 251c962abc97afb42b887e291c64e1a7
   m_configObjects: {}
