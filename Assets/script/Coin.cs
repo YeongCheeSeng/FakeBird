@@ -5,6 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public AudioSource _audioSource;
+    private GameObject CoinCollectedEffect;
 
     void Start()
     {
@@ -17,6 +18,11 @@ public class Coin : MonoBehaviour
         Debug.Log(col + " entered this");
         if (!col.gameObject.CompareTag("Player"))
             return;
+
+        if (CoinCollectedEffect != null)
+        {
+            GameObject.Instantiate(CoinCollectedEffect);
+        }
 
         _audioSource.Play();
         Destroy(gameObject);

@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ScoreBox : MonoBehaviour
 {
     private Score _score;
+    public GameObject CoinCollectedEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +26,10 @@ public class ScoreBox : MonoBehaviour
 
             if (_score == null)
                 return;
+
+        
+            GameObject.Instantiate(CoinCollectedEffect, transform.position, Quaternion.identity);
+        
 
             _score.AddScore();
             Destroy(this.gameObject);
